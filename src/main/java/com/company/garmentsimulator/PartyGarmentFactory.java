@@ -1,6 +1,6 @@
 package com.company.garmentsimulator;
 
-public class PartyGarmentFactory {
+public class PartyGarmentFactory implements GarmentFactory {
     @Override
     public Top createTop() {
         return new PartyTop();
